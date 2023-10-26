@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node index.js",
-    "serve": "http-server --cors -p 5550"
+    "start": "http-server --cors -p 5550"
   },
   "keywords": [],
   "author": "",
