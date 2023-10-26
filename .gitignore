@@ -1,0 +1,4 @@
+node_modules
+
+iiif/*
+!iiif/README.md

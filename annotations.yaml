@@ -1,0 +1,36 @@
+# Strasbourg
+- url: https://annotations.allmaps.org/maps/cf4eb38cfd72a7e5
+  manifests: ['cities', 'europe']
+  tags: ['published']
+
+# York
+- url: https://annotations.allmaps.org/maps/dd8af01a1789ed7e
+  manifests: ['cities', 'europe']
+  tags: ['published']
+
+# Boston
+- url: https://annotations.allmaps.org/images/9562452c7c431b37
+  manifests: ['boston']
+  tags: ['published']
+
+# Boston
+- url: https://annotations.allmaps.org/maps/6284119995e76a36
+  manifests: ['boston']
+  tags: ['published', 'new']
+
+# Manhattan
+- url: https://annotations.allmaps.org/maps/877a4c8b007c9971
+  tags: ['new']
+
+# Chicago
+- url: https://annotations.allmaps.org/maps/b0b389ba28fd8ccc
+  manifests: ['cities']
+  tags: ['new']
+
+# Rotterdam
+- url: https://annotations.allmaps.org/images/3d3cb6e11cb24f96
+  manifests: ['netherlands', 'europe']
+
+# The Netherlands
+- url: https://annotations.allmaps.org/maps/a4ee6ef2d51ce736
+  manifests: ['netherlands', 'europe']
