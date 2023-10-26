@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:5550/manifests/boston.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://localhost:5550/iiif/9562452c7c431b37/canvas",
+      "type": "Canvas",
+      "width": 7948,
+      "height": 5564,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/9562452c7c431b37/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/9562452c7c431b37/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/9562452c7c431b37/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/9562452c7c431b37/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 7948,
+                "height": 5564,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/9562452c7c431b37",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:5550/iiif/24ebf575b38c6326/canvas",
+      "type": "Canvas",
+      "width": 10737,
+      "height": 6875,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/24ebf575b38c6326/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/24ebf575b38c6326/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/24ebf575b38c6326/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/24ebf575b38c6326/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 10737,
+                "height": 6875,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/24ebf575b38c6326",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -85,16 +85,18 @@ for (const {
     JSON.stringify(newAnnotation, null, 2)
   )
 
-  for (const manifestName of manifestNames) {
-    if (!manifests[manifestName]) {
-      manifests[manifestName] = []
-    }
+  if (manifestNames) {
+    for (const manifestName of manifestNames) {
+      if (!manifests[manifestName]) {
+        manifests[manifestName] = []
+      }
 
-    manifests[manifestName].push({
-      imageId: newImageId,
-      width: metadata.width,
-      height: metadata.height
-    })
+      manifests[manifestName].push({
+        imageId: newImageId,
+        width: metadata.width,
+        height: metadata.height
+      })
+    }
   }
 
   console.log(chalk.green('  Done!\n'))

@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:5550/manifests/europe.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://localhost:5550/iiif/0c457a520c38e043/canvas",
+      "type": "Canvas",
+      "width": 1200,
+      "height": 852,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/0c457a520c38e043/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/0c457a520c38e043/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/0c457a520c38e043/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/0c457a520c38e043/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 1200,
+                "height": 852,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/0c457a520c38e043",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:5550/iiif/40518cb781fba5a2/canvas",
+      "type": "Canvas",
+      "width": 1535,
+      "height": 1429,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/40518cb781fba5a2/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/40518cb781fba5a2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/40518cb781fba5a2/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/40518cb781fba5a2/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 1535,
+                "height": 1429,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/40518cb781fba5a2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:5550/iiif/3d3cb6e11cb24f96/canvas",
+      "type": "Canvas",
+      "width": 5000,
+      "height": 2564,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/3d3cb6e11cb24f96/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/3d3cb6e11cb24f96/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/3d3cb6e11cb24f96/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/3d3cb6e11cb24f96/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 5000,
+                "height": 2564,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/3d3cb6e11cb24f96",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:5550/iiif/1a2bd7b2bf700335/canvas",
+      "type": "Canvas",
+      "width": 5000,
+      "height": 3110,
+      "items": [
+        {
+          "id": "http://localhost:5550/iiif/1a2bd7b2bf700335/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:5550/iiif/1a2bd7b2bf700335/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:5550/iiif/1a2bd7b2bf700335/canvas",
+              "body": {
+                "id": "http://localhost:5550/iiif/1a2bd7b2bf700335/full/600,/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "width": 5000,
+                "height": 3110,
+                "service": [
+                  {
+                    "@id": "http://localhost:5550/iiif/1a2bd7b2bf700335",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
